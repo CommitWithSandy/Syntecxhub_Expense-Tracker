@@ -60,6 +60,20 @@ An interactive, responsive, modern financial management web application built wi
 
 ---
 
+## ⚛️ React Hooks Architecture
+
+This project leverages modern React 18 functional components and stateful hooks to ensure high performance and clean code architecture:
+
+| Hook | Primary Purpose & Usage in Project |
+| :--- | :--- |
+| **`useState`** | Manages application state across components, including `transactions`, `budgets`, active month filters, search queries, modal dialog visibility, and toast feedback messages. |
+| **`useEffect`** | Handles asynchronous side effects on mount, such as fetching initial transaction records and category budget settings from `mockApi`. |
+| **`useMemo`** | Prevents expensive recalculations on re-renders by caching derived data (e.g. month-filtered transaction lists, KPI income/expense totals, donut category breakdowns, and monthly cashflow bar chart data). |
+| **`useCallback`** | Memoizes event handlers (`handleAddOrUpdateTransaction`, `handleDeleteTransaction`, `handleSaveBudgets`) to avoid unnecessary re-renders of memoized child components (`React.memo`). |
+| **`useRef`** | Provides direct DOM element references (`searchInputRef`) to programmatically focus the search input from header action buttons. |
+
+---
+
 ## 💻 Installation & Setup Guide
 
 Follow these step-by-step instructions to get a local copy up and running.
