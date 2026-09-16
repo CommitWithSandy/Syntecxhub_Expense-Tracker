@@ -9,7 +9,6 @@ An interactive, responsive, modern financial management web application built wi
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
 
 </div>
@@ -20,11 +19,11 @@ An interactive, responsive, modern financial management web application built wi
 
 | Dashboard Overview | Add New Transaction Modal |
 | :---: | :---: |
-| ![Dashboard Overview](docs/screenshots/dashboard.png) | ![Add New Transaction](docs/screenshots/add-transaction.png) |
+| ![Dashboard Overview](dashboard.png) | ![Add New Transaction](add-transaction.png) |
 
 | Transaction History & Filters | Edit Transaction Modal |
 | :---: | :---: |
-| ![Transaction History](docs/screenshots/transaction-history.png) | ![Edit Transaction](docs/screenshots/edit-transaction.png) |
+| ![Transaction History](transaction-history.png) | ![Edit Transaction](edit-transaction.png) |
 
 ---
 
